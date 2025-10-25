@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ChatGPTWinForm")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+09df6f60b2a9cfc62702e602f7e1c4728d704bb9")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d18964cfc4d68d3432a240aaf7c338b8a0d32aba")]
 [assembly: System.Reflection.AssemblyProductAttribute("ChatGPTWinForm")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ChatGPTWinForm")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
