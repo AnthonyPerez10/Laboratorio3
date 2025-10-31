@@ -17,7 +17,7 @@ namespace ChatGPTWinForm.ClasesOpenAI
             private readonly string _endpoint; // URL del endpont de OpenAI para chat completions
             private readonly string _model;  //Modelo de IA que se usara para las consultas 
             private readonly List<(string role, string content)> _historial = new(); // Memoria corta
-            private readonly int _maxMensajes = 10; // Guardar últimos N turnos
+            private readonly int _maxTurnos = 5; // Guardar últimos N turnos
 
             // Constructor qye configura la Api y el modelo q utlizas
             public OpenAiService(string? apiKey = null, string? baseUrl = null, string? model = null)
@@ -53,10 +53,9 @@ namespace ChatGPTWinForm.ClasesOpenAI
                 // Agregar mensaje del usuario al historial
                 _historial.Add(("user", prompt));
 
-                // Limitar cantidad de mensajes guardados
-                if (_historial.Count > _maxMensajes * 2)
-                    _historial.RemoveRange(0, _historial.Count - _maxMensajes * 2);
-
+                // Limitr historia a los ultimos 5 turnos 
+                LimitarHistorial();
+               
                 // Armar JSON con el historial reciente
                 var messages = _historial.Select(h => new { role = h.role, content = h.content }).ToArray();
                 var requestBody = new { model = _model, messages = messages };
@@ -93,8 +92,13 @@ namespace ChatGPTWinForm.ClasesOpenAI
 
                     textoRespuesta = textoRespuesta.Trim();
 
+                    //Limitar la repuesta a 1000 palabras
+                    textoRespuesta = LimitarPalabras(textoRespuesta, 1000);
                     // Guardar respuesta en el historial
                     _historial.Add(("assistant", textoRespuesta));
+
+                    //Mantener el historial
+                    LimitarHistorial();
 
                     return textoRespuesta; //Devuelve el texto que ofrece el asistebte de IA
                 }
@@ -110,7 +114,25 @@ namespace ChatGPTWinForm.ClasesOpenAI
             }
 
             // Limpia la conversación actual
-            public void LimpiarHistorial() {  _historial.Clear();}
+            public void LimitarHistorial() {
+                int maxMensajes = _maxTurnos * 2;
+                if (_historial.Count > maxMensajes)
+                    _historial.RemoveRange(0, _historial.Count - maxMensajes);
+            }
+            
+            // Limita un texto aun numero maximos
+            private static string LimitarPalabras(string texto, int maxPalabras)
+            {
+                var palabras = texto.Split(' ', StringSplitOptions.RemoveEmptyEntries);
+                if (palabras.Length <= maxPalabras)
+                    return texto;
+
+                return string.Join(' ', palabras.Take(maxPalabras)) + "... [respuesta truncada]";
+            }
+
+
+            //Limpiar Historia 
+            public void LimpiarHistorial() => _historial.Clear();
 
             // Configuración alternativa para usar Groq en lugar de OpenAI
             public static OpenAiService CreateGroq(string apiKey, string model = "llama-3.1-8b-instant")

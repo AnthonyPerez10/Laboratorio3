@@ -50,7 +50,7 @@
             // 
             TextChat.BackColor = Color.White;
             TextChat.CausesValidation = false;
-            TextChat.Font = new Font("Arial Narrow", 11.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            TextChat.Font = new Font("Consolas", 11.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
             TextChat.Location = new Point(47, 86);
             TextChat.Multiline = true;
             TextChat.Name = "TextChat";
@@ -124,6 +124,7 @@
             Controls.Add(LblTitle);
             Font = new Font("Segoe UI Historic", 9.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
             Name = "PagPrincipal";
+            StartPosition = FormStartPosition.CenterScreen;
             Text = "GPT 4 - Client API";
             ResumeLayout(false);
             PerformLayout();

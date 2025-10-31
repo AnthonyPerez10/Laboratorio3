@@ -22,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
@@ -39,6 +39,19 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PagPrincipal.cs",
+              "DocumentMoniker": "C:\\Users\\FLIA PEREZ\\Desktop\\U.T.P\\4\u00B0 SEMESTRE 2025\\DES. SOFT. IV\\Laboratorio3\\Laboratorio_3\\ChatGPTWinForm\\PagPrincipal.cs",
+              "RelativeDocumentMoniker": "ChatGPTWinForm\\PagPrincipal.cs",
+              "ToolTip": "C:\\Users\\FLIA PEREZ\\Desktop\\U.T.P\\4\u00B0 SEMESTRE 2025\\DES. SOFT. IV\\Laboratorio3\\Laboratorio_3\\ChatGPTWinForm\\PagPrincipal.cs*",
+              "RelativeToolTip": "ChatGPTWinForm\\PagPrincipal.cs*",
+              "ViewState": "AgIAAGcAAAAAAAAAAAAcwGsAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-25T01:41:38.743Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
               "Title": "PagPrincipal.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\FLIA PEREZ\\Desktop\\U.T.P\\4\u00B0 SEMESTRE 2025\\DES. SOFT. IV\\Laboratorio3\\Laboratorio_3\\ChatGPTWinForm\\PagPrincipal.cs",
@@ -48,19 +61,6 @@
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-25T15:58:21.787Z",
               "EditorCaption": " [Dise\u00F1o]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "PagPrincipal.cs",
-              "DocumentMoniker": "C:\\Users\\FLIA PEREZ\\Desktop\\U.T.P\\4\u00B0 SEMESTRE 2025\\DES. SOFT. IV\\Laboratorio3\\Laboratorio_3\\ChatGPTWinForm\\PagPrincipal.cs",
-              "RelativeDocumentMoniker": "ChatGPTWinForm\\PagPrincipal.cs",
-              "ToolTip": "C:\\Users\\FLIA PEREZ\\Desktop\\U.T.P\\4\u00B0 SEMESTRE 2025\\DES. SOFT. IV\\Laboratorio3\\Laboratorio_3\\ChatGPTWinForm\\PagPrincipal.cs*",
-              "RelativeToolTip": "ChatGPTWinForm\\PagPrincipal.cs*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAA/AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-25T01:41:38.743Z",
-              "EditorCaption": ""
             }
           ]
         }

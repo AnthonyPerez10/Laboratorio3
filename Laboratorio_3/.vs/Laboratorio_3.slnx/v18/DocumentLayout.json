@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\FLIA PEREZ\\Desktop\\U.T.P\\4\u00B0 SEMESTRE 2025\\DES. SOFT. IV\\Laboratorio3\\Laboratorio_3\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{CC08121B-4731-D88F-583B-7C692CDD7F61}|ChatGPTWinForm\\ChatGPTWinForm.csproj|c:\\users\\flia perez\\desktop\\u.t.p\\4\u00B0 semestre 2025\\des. soft. iv\\laboratorio3\\laboratorio_3\\chatgptwinform\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CC08121B-4731-D88F-583B-7C692CDD7F61}|ChatGPTWinForm\\ChatGPTWinForm.csproj|solutionrelative:chatgptwinform\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CC08121B-4731-D88F-583B-7C692CDD7F61}|ChatGPTWinForm\\ChatGPTWinForm.csproj|c:\\users\\flia perez\\desktop\\u.t.p\\4\u00B0 semestre 2025\\des. soft. iv\\laboratorio3\\laboratorio_3\\chatgptwinform\\pagprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CC08121B-4731-D88F-583B-7C692CDD7F61}|ChatGPTWinForm\\ChatGPTWinForm.csproj|solutionrelative:chatgptwinform\\pagprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{CC08121B-4731-D88F-583B-7C692CDD7F61}|ChatGPTWinForm\\ChatGPTWinForm.csproj|c:\\users\\flia perez\\desktop\\u.t.p\\4\u00B0 semestre 2025\\des. soft. iv\\laboratorio3\\laboratorio_3\\chatgptwinform\\pagprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{CC08121B-4731-D88F-583B-7C692CDD7F61}|ChatGPTWinForm\\ChatGPTWinForm.csproj|solutionrelative:chatgptwinform\\pagprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CC08121B-4731-D88F-583B-7C692CDD7F61}|ChatGPTWinForm\\ChatGPTWinForm.csproj|c:\\users\\flia perez\\desktop\\u.t.p\\4\u00B0 semestre 2025\\des. soft. iv\\laboratorio3\\laboratorio_3\\chatgptwinform\\pagprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CC08121B-4731-D88F-583B-7C692CDD7F61}|ChatGPTWinForm\\ChatGPTWinForm.csproj|solutionrelative:chatgptwinform\\pagprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CC08121B-4731-D88F-583B-7C692CDD7F61}|ChatGPTWinForm\\ChatGPTWinForm.csproj|c:\\users\\flia perez\\desktop\\u.t.p\\4\u00B0 semestre 2025\\des. soft. iv\\laboratorio3\\laboratorio_3\\chatgptwinform\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CC08121B-4731-D88F-583B-7C692CDD7F61}|ChatGPTWinForm\\ChatGPTWinForm.csproj|solutionrelative:chatgptwinform\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,11 +22,15 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\FLIA PEREZ\\Desktop\\U.T.P\\4\u00B0 SEMESTRE 2025\\DES. SOFT. IV\\Laboratorio3\\Laboratorio_3\\ChatGPTWinForm\\Program.cs",
               "RelativeDocumentMoniker": "ChatGPTWinForm\\Program.cs",
@@ -35,6 +39,19 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-25T16:41:00.511Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PagPrincipal.cs",
+              "DocumentMoniker": "C:\\Users\\FLIA PEREZ\\Desktop\\U.T.P\\4\u00B0 SEMESTRE 2025\\DES. SOFT. IV\\Laboratorio3\\Laboratorio_3\\ChatGPTWinForm\\PagPrincipal.cs",
+              "RelativeDocumentMoniker": "ChatGPTWinForm\\PagPrincipal.cs",
+              "ToolTip": "C:\\Users\\FLIA PEREZ\\Desktop\\U.T.P\\4\u00B0 SEMESTRE 2025\\DES. SOFT. IV\\Laboratorio3\\Laboratorio_3\\ChatGPTWinForm\\PagPrincipal.cs",
+              "RelativeToolTip": "ChatGPTWinForm\\PagPrincipal.cs",
+              "ViewState": "AgIAAHUAAAAAAAAAAAAmwKQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-25T01:41:38.743Z",
               "EditorCaption": ""
             },
             {
@@ -48,19 +65,6 @@
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-25T15:58:21.787Z",
               "EditorCaption": " [Dise\u00F1o]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "PagPrincipal.cs",
-              "DocumentMoniker": "C:\\Users\\FLIA PEREZ\\Desktop\\U.T.P\\4\u00B0 SEMESTRE 2025\\DES. SOFT. IV\\Laboratorio3\\Laboratorio_3\\ChatGPTWinForm\\PagPrincipal.cs",
-              "RelativeDocumentMoniker": "ChatGPTWinForm\\PagPrincipal.cs",
-              "ToolTip": "C:\\Users\\FLIA PEREZ\\Desktop\\U.T.P\\4\u00B0 SEMESTRE 2025\\DES. SOFT. IV\\Laboratorio3\\Laboratorio_3\\ChatGPTWinForm\\PagPrincipal.cs",
-              "RelativeToolTip": "ChatGPTWinForm\\PagPrincipal.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAYAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-25T01:41:38.743Z",
-              "EditorCaption": ""
             }
           ]
         }
