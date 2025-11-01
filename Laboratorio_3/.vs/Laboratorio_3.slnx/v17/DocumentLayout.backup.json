@@ -1,0 +1,107 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Adalberto\\Documents\\Repos\\Laboratorio3\\Laboratorio_3\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{CC08121B-4731-D88F-583B-7C692CDD7F61}|ChatGPTWinForm\\ChatGPTWinForm.csproj|c:\\users\\adalberto\\documents\\repos\\laboratorio3\\laboratorio_3\\chatgptwinform\\pagprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CC08121B-4731-D88F-583B-7C692CDD7F61}|ChatGPTWinForm\\ChatGPTWinForm.csproj|solutionrelative:chatgptwinform\\pagprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC08121B-4731-D88F-583B-7C692CDD7F61}|ChatGPTWinForm\\ChatGPTWinForm.csproj|c:\\users\\adalberto\\documents\\repos\\laboratorio3\\laboratorio_3\\chatgptwinform\\clasesopenai\\servicesopenai.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CC08121B-4731-D88F-583B-7C692CDD7F61}|ChatGPTWinForm\\ChatGPTWinForm.csproj|solutionrelative:chatgptwinform\\clasesopenai\\servicesopenai.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC08121B-4731-D88F-583B-7C692CDD7F61}|ChatGPTWinForm\\ChatGPTWinForm.csproj|C:\\Users\\Adalberto\\Documents\\Repos\\Laboratorio3\\Laboratorio_3\\chatgptwinform\\pagprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{CC08121B-4731-D88F-583B-7C692CDD7F61}|ChatGPTWinForm\\ChatGPTWinForm.csproj|solutionrelative:chatgptwinform\\pagprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC08121B-4731-D88F-583B-7C692CDD7F61}|ChatGPTWinForm\\ChatGPTWinForm.csproj|c:\\users\\adalberto\\documents\\repos\\laboratorio3\\laboratorio_3\\chatgptwinform\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CC08121B-4731-D88F-583B-7C692CDD7F61}|ChatGPTWinForm\\ChatGPTWinForm.csproj|solutionrelative:chatgptwinform\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:131:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PagPrincipal.cs",
+              "DocumentMoniker": "C:\\Users\\Adalberto\\Documents\\Repos\\Laboratorio3\\Laboratorio_3\\ChatGPTWinForm\\PagPrincipal.cs",
+              "RelativeDocumentMoniker": "ChatGPTWinForm\\PagPrincipal.cs",
+              "ToolTip": "C:\\Users\\Adalberto\\Documents\\Repos\\Laboratorio3\\Laboratorio_3\\ChatGPTWinForm\\PagPrincipal.cs",
+              "RelativeToolTip": "ChatGPTWinForm\\PagPrincipal.cs",
+              "ViewState": "AgIAALYAAAAAAAAAAAAAwBYBAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-01T03:24:12.091Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ServicesOpenAI.cs",
+              "DocumentMoniker": "C:\\Users\\Adalberto\\Documents\\Repos\\Laboratorio3\\Laboratorio_3\\ChatGPTWinForm\\ClasesOpenAI\\ServicesOpenAI.cs",
+              "RelativeDocumentMoniker": "ChatGPTWinForm\\ClasesOpenAI\\ServicesOpenAI.cs",
+              "ToolTip": "C:\\Users\\Adalberto\\Documents\\Repos\\Laboratorio3\\Laboratorio_3\\ChatGPTWinForm\\ClasesOpenAI\\ServicesOpenAI.cs",
+              "RelativeToolTip": "ChatGPTWinForm\\ClasesOpenAI\\ServicesOpenAI.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAQwFYAAABAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-01T02:34:19.407Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PagPrincipal.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Adalberto\\Documents\\Repos\\Laboratorio3\\Laboratorio_3\\ChatGPTWinForm\\PagPrincipal.cs",
+              "RelativeDocumentMoniker": "ChatGPTWinForm\\PagPrincipal.cs",
+              "ToolTip": "C:\\Users\\Adalberto\\Documents\\Repos\\Laboratorio3\\Laboratorio_3\\ChatGPTWinForm\\PagPrincipal.cs [Dise\u00F1o]",
+              "RelativeToolTip": "ChatGPTWinForm\\PagPrincipal.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-01T02:33:53.175Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Adalberto\\Documents\\Repos\\Laboratorio3\\Laboratorio_3\\ChatGPTWinForm\\Program.cs",
+              "RelativeDocumentMoniker": "ChatGPTWinForm\\Program.cs",
+              "ToolTip": "C:\\Users\\Adalberto\\Documents\\Repos\\Laboratorio3\\Laboratorio_3\\ChatGPTWinForm\\Program.cs",
+              "RelativeToolTip": "ChatGPTWinForm\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-01T02:32:35.564Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

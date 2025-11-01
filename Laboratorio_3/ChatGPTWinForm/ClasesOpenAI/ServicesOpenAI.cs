@@ -36,6 +36,9 @@ namespace ChatGPTWinForm.ClasesOpenAI
                 // Endpoint y modelo por defecto (OpenAI)
                 _endpoint = baseUrl ?? "https://api.openai.com/v1/chat/completions";
                 _model = model ?? "gpt-4o-mini";
+
+                _httpClient.Timeout = TimeSpan.FromSeconds(60); //Tiempo de espera de 60 segundos
+
             }
 
             // Metodo asincrono para enviar un pregunta para obtener repuesta 
@@ -81,16 +84,26 @@ namespace ChatGPTWinForm.ClasesOpenAI
                         }
                     }
 
-                    // Leer y extraer la respuesta del asistente
+                    // Leer y extraer la respuesta del asistente              
                     var responseJson = await response.Content.ReadAsStringAsync();
                     using var doc = JsonDocument.Parse(responseJson);
-                    string textoRespuesta = doc.RootElement
-                        .GetProperty("choices")[0]
-                        .GetProperty("message")
-                        .GetProperty("content")
-                        .GetString() ?? "(sin respuesta)";
+
+                    string textoRespuesta = "(sin respuesta)";
+                    try
+                    {
+                        textoRespuesta = doc.RootElement
+                            .GetProperty("choices")[0]
+                            .GetProperty("message")
+                            .GetProperty("content")
+                            .GetString() ?? "(sin respuesta)";
+                    }
+                    catch (Exception)
+                    {
+                        throw new Exception("Error al procesar la respuesta del modelo.");
+                    }
 
                     textoRespuesta = textoRespuesta.Trim();
+
 
                     //Limitar la repuesta a 1000 palabras
                     textoRespuesta = LimitarPalabras(textoRespuesta, 1000);
@@ -100,7 +113,7 @@ namespace ChatGPTWinForm.ClasesOpenAI
                     //Mantener el historial
                     LimitarHistorial();
 
-                    return textoRespuesta; //Devuelve el texto que ofrece el asistebte de IA
+                    return textoRespuesta; //Devuelve el texto que ofrece el asistente de IA
                 }
                 catch (TaskCanceledException){throw new HttpRequestException("No se pudo conectar. Intenta de nuevo.");}
                 catch (HttpRequestException)

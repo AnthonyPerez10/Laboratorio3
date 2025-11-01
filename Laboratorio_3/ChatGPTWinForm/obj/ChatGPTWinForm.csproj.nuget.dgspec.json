@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\FLIA PEREZ\\Desktop\\U.T.P\\4° SEMESTRE 2025\\DES. SOFT. IV\\Laboratorio3\\Laboratorio_3\\ChatGPTWinForm\\ChatGPTWinForm.csproj": {}
+    "C:\\Users\\Adalberto\\Documents\\Repos\\Laboratorio3\\Laboratorio_3\\ChatGPTWinForm\\ChatGPTWinForm.csproj": {}
   },
   "projects": {
-    "C:\\Users\\FLIA PEREZ\\Desktop\\U.T.P\\4° SEMESTRE 2025\\DES. SOFT. IV\\Laboratorio3\\Laboratorio_3\\ChatGPTWinForm\\ChatGPTWinForm.csproj": {
+    "C:\\Users\\Adalberto\\Documents\\Repos\\Laboratorio3\\Laboratorio_3\\ChatGPTWinForm\\ChatGPTWinForm.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\FLIA PEREZ\\Desktop\\U.T.P\\4° SEMESTRE 2025\\DES. SOFT. IV\\Laboratorio3\\Laboratorio_3\\ChatGPTWinForm\\ChatGPTWinForm.csproj",
+        "projectUniqueName": "C:\\Users\\Adalberto\\Documents\\Repos\\Laboratorio3\\Laboratorio_3\\ChatGPTWinForm\\ChatGPTWinForm.csproj",
         "projectName": "ChatGPTWinForm",
-        "projectPath": "C:\\Users\\FLIA PEREZ\\Desktop\\U.T.P\\4° SEMESTRE 2025\\DES. SOFT. IV\\Laboratorio3\\Laboratorio_3\\ChatGPTWinForm\\ChatGPTWinForm.csproj",
-        "packagesPath": "C:\\Users\\FLIA PEREZ\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\FLIA PEREZ\\Desktop\\U.T.P\\4° SEMESTRE 2025\\DES. SOFT. IV\\Laboratorio3\\Laboratorio_3\\ChatGPTWinForm\\obj\\",
+        "projectPath": "C:\\Users\\Adalberto\\Documents\\Repos\\Laboratorio3\\Laboratorio_3\\ChatGPTWinForm\\ChatGPTWinForm.csproj",
+        "packagesPath": "C:\\Users\\Adalberto\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Adalberto\\Documents\\Repos\\Laboratorio3\\Laboratorio_3\\ChatGPTWinForm\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\FLIA PEREZ\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Adalberto\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -44,7 +44,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "10.0.100"
+        "SdkAnalysisLevel": "9.0.300"
       },
       "frameworks": {
         "net9.0-windows7.0": {
@@ -74,7 +74,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.100-rc.2.25502.107/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.305/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
